@@ -41,4 +41,5 @@ int main()
 	Rational r1(4,-5);
 	r1.normalize();
 	r1.show();
+	return 0;
 }
