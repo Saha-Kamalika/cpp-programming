@@ -20,7 +20,7 @@ float calculate(Point p1, Point p2) {
   return d;
 }
 int main() {
-  Point p(0, 0);
+  Point p(1, 0);
   cout << "Point 1 is ";
   p.display();
   Point q(70, 0);
