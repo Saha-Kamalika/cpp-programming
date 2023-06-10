@@ -6,6 +6,9 @@ int main(){
   try{
     throw 0;
   }
+  catch(char c){
+    cout<<c<<endl;
+  }
   catch(int err){
     cout<<err<<endl;
   }
