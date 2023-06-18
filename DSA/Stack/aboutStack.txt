@@ -1,0 +1,16 @@
+ADT - Abstract Data Type is a type of user-defined data type in which only only the operations to be performed on the data type are defined hinding all the implementation details.
+
+Stack ADT - A list with the restriction that insertion and deletion can be performed only from one end(top).
+
+Opertaions(O(1))- 
+-push(x)
+-pop()
+-peek()
+-isEmpty()
+-isFull()
+
+Applications- 
+-function calls/ Recursion
+-undo in editor
+-Balancing patenthesis
+-Postfix evluation of an expression
