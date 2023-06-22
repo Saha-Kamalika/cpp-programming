@@ -1,0 +1,22 @@
+-Depth of x: no of edges in path from root to x
+-Height of x: no of edges from x to leaf node
+-Height of tree: no of edges from root to a leaf node
+-Binary tree: a tree in which a node can have atmost 2 children
+
+-Applications: 
+. storing data hierarchically
+. organizing data for quick search(BSTs)
+. Trie: dictionary
+. Network routing algorithm
+
+-strict/proper binary tree: each node have either 2 or 0 children
+-complete binary tree: all levels except the last are completely filled and all the nodes are as left as possible
+-perfect binary tree: all levels completely filled
+
+# max nodes in a binary tree with height h: 2^(h+1)-1
+#min height with n nodes: log2n
+#max height with n nodes: n-1
+
+-balanced binary tree: difference between height of left and right subtree for every node is not more than k (mostly 1)
+
+-binary search tree: a binary tree in which all the nodes in the left subtree of a particular node is lesser or equal and the nodes of the right subtree is greater
