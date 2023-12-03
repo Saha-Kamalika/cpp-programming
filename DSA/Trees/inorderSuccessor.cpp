@@ -1,5 +1,5 @@
 class Solution{
-  public:
+  public :
     Node * search(Node *ptr, Node *x){
         if (ptr==NULL)
             return NULL;
