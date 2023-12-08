@@ -4,7 +4,7 @@ class Solution
 {
     public:
     //Function to return the minimum cost of connecting the ropes.
-    long long minCost(long long arr[], long long n) {
+    long long minCost(long long arr[], long long n) { 
         priority_queue<int,vector<int>,greater<int>> minh;
         for(int i=0;i<n;i++) minh.push(arr[i]);
         long long cost=0;
