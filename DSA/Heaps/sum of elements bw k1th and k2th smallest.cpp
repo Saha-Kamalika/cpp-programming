@@ -5,7 +5,7 @@ class Solution{
         for(int i=0;i<N;i++){
             maxh.push(A[i]);
             if(maxh.size()>K) maxh.pop();
-        }
+        } 
         return maxh.top();
     }
     long long sumBetweenTwoKth( long long A[], long long N, long long K1, long long K2)
