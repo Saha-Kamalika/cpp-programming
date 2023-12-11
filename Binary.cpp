@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Binary {
+class Binary  {
 private:
   string s;
 
