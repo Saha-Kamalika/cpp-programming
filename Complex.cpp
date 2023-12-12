@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Complex{
+class Complex{ 
 	private: float real;
 			 float img;
 			 static int cnt;
