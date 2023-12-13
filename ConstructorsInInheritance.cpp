@@ -2,7 +2,7 @@
 using namespace std;
 class Base1 {
   int data1;
-
+ 
 public:
   Base1(int d1) {
     data1 = d1;
