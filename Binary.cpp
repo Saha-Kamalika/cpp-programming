@@ -4,7 +4,7 @@ using namespace std;
 class Binary  {
 private:
   string s;
-
+ 
 public:
   void get();
   void check();
