@@ -2,7 +2,7 @@
 For example,with a shift of 1, P would be replaced by Q, Q would become R, and so on.
 To pass an encrypted message from one person to another, it is first necessary that both parties have the ‘Key’ for the cipher, so that the sender may encrypt and the receiver may decrypt it.*/
 
-  
+   
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
