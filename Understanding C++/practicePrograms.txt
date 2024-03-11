@@ -1,0 +1,46 @@
+///max word
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    string s;
+    getline(cin, s);
+    istringstream ss(s);
+    int m=0;
+    while(ss){
+        string word;
+        ss>>word;
+        if(word==" ") break;
+        m= max(m,(int)word.length());
+    }
+    cout<<m;
+}
+
+
+///divide string
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    string s1, s2;
+    cin>>s1>>s2;
+    int carry=0;
+    for(int i=0;i<s1.length();i+=s2.length()){
+        carry=pow(10,s2.length())*carry+stoi(s1.substr(i,s2.length()));
+        carry%=stoi(s2);
+    }
+    cout<<carry;
+}
+
+///maximum product
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    //15-> 3^5=243
+    //16-> 4*81 = 324
+    int n, p=1;
+    cin>>n;
+    while(n%3!=0){
+        n-=2;
+        p*=2;
+    }
+    cout<<p*pow(3,(n/3));
+}
