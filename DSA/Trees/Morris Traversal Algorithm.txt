@@ -1,0 +1,27 @@
+Morris Traversal Algorithm ->prints inorder pattern of the BT
+T.C -> O(n) S.C -> O(1)
+
+-> current = root
+-> while(root!=NULL)
+	if left not exists
+		visit(current)
+		current=  current->right
+	else
+		predecessor = find(curr)
+		if(predecessor->right == NULL)
+			predecessor->right = current
+			current = current->left
+		else
+			predecessor->right = NULL
+			visit(current)
+			current = current->right
+->exit
+
+
+//for finding predecessor
+
+int find(Node* curr){
+	int pred = curr->left
+	while(pred->right != NULL and pred->right != curr) pred= pred->right;
+	return pred;
+}
