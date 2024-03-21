@@ -1,10 +1,10 @@
-## DSA COURSE
+<h1> DSA COURSE </h1>
 
-1. Basic Problems
+### 1. Basic Problems
 ## Decimal/Binary Conversion
 ## Reverse Integer, Complement Integer, Power of 2
 
-2. Arrays
+### 2. Arrays
 ## Reverse Array
 ## Linear Search / Binary Search
 ## Unique element
