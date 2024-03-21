@@ -16,4 +16,5 @@
     . Search in rotated sorted array ✅
     . Square Root ✅
     . Book Allocation Problem ✅
+    . Painter's Partition Problem ✅
     
