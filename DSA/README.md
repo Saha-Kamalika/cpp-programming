@@ -17,4 +17,5 @@
     . Square Root ✅
     . Book Allocation Problem ✅
     . Painter's Partition Problem ✅
+    . Aggressive Cows Problem ✅
     
