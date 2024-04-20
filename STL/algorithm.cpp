@@ -27,6 +27,11 @@ int main() {
   swap(a, b);
   cout << "a->" << a << " "
        << "b->" << b << endl;
+       
+
+  int arr[]={1,2,3,4,5};
+  int itr=lower_bound(arr,arr+5,2.5)-arr;
+  cout<<itr;
 }
 #include<bits/stdc++.h>
 using namespace std;
@@ -62,4 +67,22 @@ int main(){
     for(auto e: v) cout<<e<<" ";
     cout<<endl;
 }
-
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     // string s="ABC";
+//     // do{
+//     //     cout<<s<<endl;
+//     // }while(next_permutation(s.begin(),s.end()));
+    
+//     //to count set bits
+    
+//     // int n;
+//     // cin>>n;
+//     // cout<<__builtin_popcount(n)<<endl;
+    
+//     int arr[]={1,2,3,4,5};
+//     if(binary_search(arr,arr+n,2)) cout<<"Present"<<endl;
+//     else cout<<"Absent"<<endl;
+//     return 0;
+// }
