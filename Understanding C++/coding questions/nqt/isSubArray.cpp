@@ -9,7 +9,7 @@ bool subArr(vector<int> &arr1,vector<int> &arr2,int n,int m){
             if(arr1[i+j]!=arr2[j]){
                 found=false;
                 break;
-            }
+            } 
         }
     }
     if(found) return true;
