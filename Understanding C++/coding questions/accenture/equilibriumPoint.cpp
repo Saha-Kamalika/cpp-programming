@@ -11,7 +11,7 @@ int equi(vector<int> &arr,int n){
         leftSum+=arr[i];
     }
     return -1;
-}
+} 
 int main(){
     int n;
     cin>>n;
